@@ -7,6 +7,7 @@ To work as a Data Scientist for the Autolib electric car-sharing service company
 # Creating Hypothesis
 
 H0:The BlueCar Are Most Active On Friday More Than Monday 
+
 H1:The BlueCar Are Not Most Active On Friday More Than Monday
 
 # Importing libaries and Loading the datasets
@@ -35,9 +36,13 @@ It has 4645 rows
 Checking for:
   Duplicates
   Missing values
+  
 Making the column names uniform 
-filtring the data to weekday only 
-gettinh labels for days of the week
+
+filtering the data to weekday only 
+
+getting labels for days of the week
+
 Checking for outliers
 
 # Data Visualization 
@@ -48,11 +53,13 @@ checking for the frequency of variables using bar graph pie chart and histogram
 # Use of sampling techniques
  
  simple random sampling 
+ 
  stratified random sampling
  
  # Probabilities
  
   using poisson to find probabilities of an event
+  
   using bayesian to find conditional probabilities
   
  # Testing The significance of a test
